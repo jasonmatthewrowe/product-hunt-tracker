@@ -1,0 +1,40 @@
+name: Friday Product Hunt Scrape
+
+on:
+  schedule:
+    - cron: '0 9 * * 5'  # Every Friday at 9:00 AM UTC
+  workflow_dispatch:      # Manual trigger for testing
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "Product Hunt Bot"
+          git config user.email "bot@users.noreply.github.com"
+
+      - name: Install Python dependencies
+        run: pip install gspread google-auth
+
+      - name: Run Product Hunt pipeline
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt_file: .github/prompts/friday-scrape.md
+          allowed_tools: "Bash,Read,Write,Edit,WebFetch"
+        env:
+          GMAIL_USER: jason.matthew.rowe@gmail.com
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: 1SvqZ_zQdgs1zeZE_PRQMITAau8_q1HtRej6BaC2LHyg
+          REPORT_TO: rowebotagent@gmail.com
