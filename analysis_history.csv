@@ -4006,3 +4006,183 @@ product_id,product_name,product_url,category,value_proposition,target_audience,p
 3. Add-ons","1. Crowded analytics
 2. Shopify native features
 3. Recommendation quality","Ship Shopify-connected opportunity reports with ranked, quantified actions.","Prescriptive store advice is a gap versus dashboards, if recommendations prove accurate.",2026-10-02T15:20:00.000Z
+1274511,Request Eagle,https://www.producthunt.com/posts/request-eagle,Developer Tools / API Client,"An open-source, fast API client positioned as a lightweight Postman alternative for developers testing HTTP APIs.","Backend and full-stack developers, QA engineers, small teams fleeing Postman's account walls and pricing.","1. Postman is heavy, slow and pushes cloud sign-in
+2. Collaboration features locked behind paid tiers
+3. Collections are hard to version in git","1. Git-native collections stored as plain files
+2. Built-in mock servers and contract tests
+3. Team sharing without mandatory accounts","1. OpenAPI sync with drift detection
+2. AI-assisted request generation from docs
+3. Shared environments with secret management","1. Postman
+2. Bruno
+3. Insomnia",8,7,"1. Hosted team workspace layer on an open-source core
+2. Hybrid local-first with optional sync
+3. Deep CI integration for API regression runs",medium,6–8 weeks,"1. Paid team sync and shared workspaces
+2. Enterprise SSO/audit add-on
+3. Hosted monitors and mock servers","1. Crowded market with strong free incumbents (Bruno, Hoppscotch)
+2. Open-source core makes paid conversion hard
+3. Postman's ecosystem lock-in",Build a hosted collaboration and monitoring layer rather than competing on the client itself; target teams migrating off Postman with import tools and git-based workflows.,"Developers will switch for speed and privacy, but monetization must come from team/cloud features.",2026-10-09T15:14:31.000Z
+1273816,BrightBean Studio,https://www.producthunt.com/posts/brightbean-studio-social-media,Social Media Management,"An open-source Buffer alternative letting social media teams schedule and publish content across channels, self-hosted or managed.","Small agencies, freelancers and in-house social teams wanting lower cost and data control.","1. Buffer/Hootsuite per-channel pricing scales poorly
+2. Platform API changes break integrations
+3. Weak approval workflows on cheap tiers","1. Flat per-seat pricing
+2. Client approval portals for agencies
+3. AI-assisted caption and repurposing tools","1. Unified inbox and comment management
+2. Analytics across platforms
+3. Bulk scheduling via CSV/calendar import","1. Buffer
+2. Hootsuite
+3. Postiz",8,7,"1. Agency-first white-label reporting
+2. Self-host plus managed hosting
+3. Niche focus on a few channels done deeply",medium,8–12 weeks,"1. Managed hosting subscription
+2. White-label agency plan
+3. Usage-based AI credits","1. Social API access and rate limits (X, Meta, TikTok) are fragile
+2. Mature competitors and open-source rivals (Postiz, Mixpost)
+3. Compliance review by platforms for publishing apps","Start with 3–4 stable channels, win agencies with client approval workflows and white-label reports, and monetize via managed hosting.","Proven category with real pricing pain, but platform API dependence is the main risk.",2026-10-09T15:14:31.000Z
+1271677,Regunow,https://www.producthunt.com/posts/regunow,RegTech / Compliance,Converts regulatory research into actionable compliance audits so teams can quickly see what rules apply and what to fix.,"Compliance officers and operations leads at SMBs in regulated industries (fintech, health, food).","1. Regulatory research is manual and slow
+2. Consultants are expensive
+3. Rules change and audits go stale","1. Continuous monitoring for rule changes
+2. Auto-generated remediation task lists
+3. Evidence collection integrations","1. Audit-ready export reports
+2. Jurisdiction-specific rule libraries
+3. Integrations with ticketing/GRC tools","1. Vanta
+2. Drata
+3. OneTrust",7,7,"1. Pick one vertical/jurisdiction and go deep
+2. Cheaper than consultants, faster than GRC suites
+3. Citations to primary sources for trust",medium,10–14 weeks,"1. Per-framework subscription
+2. Audit report credits
+3. Consulting upsell","1. Hallucinated legal guidance creates liability
+2. Long enterprise sales cycles
+3. Needs authoritative, constantly updated rule data","Focus on a single regulated niche, use retrieval over cited primary sources, and sell audit packs to SMBs priced well below consultants.","High willingness to pay, but accuracy and liability set the bar.",2026-10-09T15:14:31.000Z
+1270507,Phonable,https://www.producthunt.com/posts/phonable,Small Business Communication,Automatically texts callers back after missed calls and gives the owner a short summary so no lead is lost.,"Local service businesses (plumbers, salons, clinics, contractors) and solo operators.","1. Missed calls lose revenue
+2. Owners can't answer while working
+3. Voicemail is ignored","1. Auto-qualification questions by SMS
+2. Booking link follow-ups
+3. CRM sync","1. Multi-number/team routing
+2. Call transcription summaries
+3. Review request automation","1. Podium
+2. Smith.ai
+3. Missed Call Text Back tools (GoHighLevel, Quo)",7,7,"1. Vertical templates per trade
+2. Flat low pricing
+3. Simple setup via call forwarding",low,3–5 weeks,"1. Monthly subscription per number
+2. Per-message overage
+3. Booking/payments add-on","1. SMS carrier registration (A2P 10DLC) friction
+2. Crowded with GoHighLevel-style bundles
+3. Low switching cost","Build on Twilio with call-forward onboarding, ship vertical templates, and sell at a low flat price to local trades.",Clear ROI pitch and low complexity; distribution is the real challenge.,2026-10-09T15:14:31.000Z
+1271253,De Stash,https://www.producthunt.com/posts/de-stash,Mac Utilities,"A private Mac storage visualizer and cleaner that lets users see, search and clean up disk usage locally.","Mac users with full SSDs, creators and developers.","1. macOS 'System Data' is opaque
+2. Cleaners feel untrustworthy
+3. Developer caches balloon silently","1. Dev-cache aware cleanup
+2. Scheduled cleanup suggestions
+3. Safe undo/trash staging","1. Duplicate detection
+2. Cloud-storage awareness
+3. Menubar monitoring","1. DaisyDisk
+2. CleanMyMac
+3. OmniDiskSweeper",6,6,"1. Developer-focused (Xcode, node_modules, Docker)
+2. Strict privacy/offline
+3. One-time pricing",low,4–6 weeks,"1. One-time license
+2. Pro for devs
+3. Family bundle","1. Saturated paid Mac utility market
+2. Needs Full Disk Access trust
+3. Low recurring revenue","Target developers' caches and build artifacts specifically, with a one-time price and clear safety guarantees.",Niche is real but hard to monetize recurringly.,2026-10-09T15:14:31.000Z
+1274297,Sorted,https://www.producthunt.com/posts/sorted-6,Mac Utilities / AI,"A private, on-device AI file organizer for Mac that sorts and renames files automatically.","Mac users with cluttered Downloads/Desktop folders, freelancers.","1. Downloads folders become dumping grounds
+2. Manual filing is tedious
+3. Cloud AI organizers raise privacy concerns","1. Rule learning from user corrections
+2. Project-based grouping
+3. Search by content","1. Windows/cross-platform support
+2. Undo history
+3. Shared team folder rules","1. Hazel
+2. Sparkle
+3. Declutter-style apps",6,6,"1. On-device models for privacy
+2. Natural-language rules
+3. Better previews/undo",medium,5–8 weeks,"1. One-time license
+2. Pro tier for AI features
+3. Setapp distribution","1. Hazel is entrenched
+2. Local models limit quality
+3. Single-platform ceiling","Position as 'Hazel with natural-language rules' running local models, sold via direct license and Setapp.","Privacy angle helps, but incumbents and platform risk cap upside.",2026-10-09T15:14:31.000Z
+1272541,tide,https://www.producthunt.com/posts/tide-simple-self-hostable-video-calls,Video Conferencing,"A simple, focused Jitsi alternative offering a small set of reliable meeting features.","Small teams and communities wanting lightweight, privacy-friendly video calls.","1. Jitsi UX and reliability inconsistency
+2. Zoom/Meet account friction
+3. Self-hosting WebRTC is painful","1. Managed hosting with simple setup
+2. Better mobile experience
+3. Embeddable calls","1. Recording and transcripts
+2. Breakout rooms
+3. Calendar integration","1. Jitsi
+2. Whereby
+3. Daily",6,6,"1. Embeddable meeting SDK for products
+2. Privacy-first positioning
+3. Predictable flat pricing",medium,8–12 weeks,"1. Per-host subscription
+2. Usage-based embed API
+3. Self-host support plans","1. WebRTC infrastructure costs and reliability
+2. Dominated by free Zoom/Meet
+3. Hard to differentiate",Skip competing with Zoom head-on; offer an embeddable room API for niche products with flat pricing.,Infrastructure cost and free incumbents make this a hard standalone SaaS.,2026-10-09T15:14:31.000Z
+1273004,Markdoc,https://www.producthunt.com/posts/markdoc-3,Collaboration / Documents,A shared Markdown editor where people and AI agents co-edit the same documents.,"Teams using AI agents for docs, specs and knowledge bases; developers.","1. Agents and humans edit docs in different tools
+2. Version conflicts with agent edits
+3. Notion/Docs not agent-native","1. Change review/accept flow for agent edits
+2. Git sync
+3. Permissions per agent","1. MCP server access
+2. Comments and suggestions
+3. Templates","1. Notion
+2. HackMD
+3. Google Docs",7,6,"1. Agent-first API and audit trail
+2. Markdown/git portability
+3. Per-agent permissions",low,4–6 weeks,"1. Per-seat plan
+2. Agent usage tier
+3. Self-host enterprise","1. Notion/Google adding agent features
+2. Hard to retain users
+3. Collaboration CRDT complexity","Build a CRDT-based Markdown workspace with an MCP server and agent suggestion review, aimed at AI-heavy dev teams.","Timely niche, but platform incumbents will converge on it.",2026-10-09T15:14:31.000Z
+1273125,Termaxa,https://www.producthunt.com/posts/termaxa,Developer Security / AI Safety,"Shows what an AI agent's shell command would destroy before it runs, adding a preview/guard layer.",Developers running coding agents with shell access; platform security teams.,"1. Agents run destructive commands
+2. Approval fatigue
+3. No dry-run for arbitrary commands","1. Policy rules and allowlists
+2. Sandboxed dry-run execution
+3. Team-wide audit logs","1. Integration with Claude Code/Cursor hooks
+2. Rollback snapshots
+3. CI usage","1. Native agent permission prompts
+2. Sandbox tools (E2B)
+3. Guardrail libraries",6,6,"1. Hook-based integrations across agents
+2. Org policy management
+3. Snapshot/rollback",medium,6–8 weeks,"1. Team policy dashboard
+2. Enterprise audit
+3. Per-seat dev plan","1. Agent vendors building this natively
+2. Accurately predicting command effects is hard
+3. Small paying market early","Ship as a hook/CLI that integrates with major coding agents, then monetize org-level policy and audit.","Real fear around agent safety, but vendors may absorb the feature.",2026-10-09T15:14:31.000Z
+1270876,tunnl.gg,https://www.producthunt.com/posts/tunnl-gg,Developer Tools / Networking,"Stable localhost URLs over SSH with no client install, an ngrok-style tunnel alternative.","Developers sharing local servers, webhook testers.","1. ngrok URLs change and are rate-limited
+2. Installs required
+3. Pricing for custom domains","1. Reserved subdomains
+2. Request inspection UI
+3. Team access controls","1. Custom domains
+2. Webhook replay
+3. TCP/UDP tunnels","1. ngrok
+2. Cloudflare Tunnel
+3. localhost.run",7,6,"1. Zero-install SSH approach
+2. Generous free tier
+3. Webhook debugging tooling",low,3–5 weeks,"1. Paid reserved domains
+2. Team plans
+3. Webhook replay add-on","1. Heavy free competition (Cloudflare)
+2. Abuse/phishing risk on tunnels
+3. Low willingness to pay","Differentiate with webhook inspection and replay on top of zero-install tunnels, priced for individual developers.","Easy to build, but free alternatives cap revenue.",2026-10-09T15:14:31.000Z
+1186582,VocaScript,https://www.producthunt.com/posts/vocascript,Audio / Transcription,Transcribes hours-long recordings reliably end to end without dropping or truncating output.,"Researchers, journalists, podcasters, legal and meeting-heavy professionals.","1. Long files fail or truncate
+2. Speaker labeling errors
+3. Per-minute costs add up","1. Resumable chunked processing
+2. Speaker diarization
+3. Editing with synced audio","1. Summaries and chapters
+2. Exports to doc tools
+3. Team libraries","1. Otter
+2. Descript
+3. Whisper-based tools",7,6,"1. Reliability guarantee for long audio
+2. Vertical templates (legal, research)
+3. Flat pricing",medium,4–6 weeks,"1. Credit packs
+2. Monthly subscription
+3. Enterprise batch API","1. Commoditized by Whisper and big vendors
+2. Thin margins
+3. Accuracy complaints","Wrap open speech models with robust chunking, diarization and a clean editor, targeting long-form professionals.",Reliability is a real wedge but defensibility is thin.,2026-10-09T15:14:31.000Z
+1271403,AgentSDR,https://www.producthunt.com/posts/agentsdr,Sales Automation,An open-source AI SDR that automates prospecting and outreach.,Startup founders and small sales teams.,"1. Outbound is time-consuming
+2. Generic AI emails hurt deliverability
+3. Tool sprawl for sales stacks","1. Better lead enrichment
+2. Reply handling and booking
+3. Deliverability safeguards","1. CRM sync
+2. Multichannel sequences
+3. Analytics","1. 11x
+2. Apollo
+3. Clay",7,6,"1. Open-source trust
+2. Vertical focus
+3. Human-in-the-loop approvals",medium,8–12 weeks,"1. Managed hosting
+2. Usage-based credits
+3. Enterprise support","1. Spam and compliance risk
+2. Saturated AI SDR space
+3. Deliverability is hard","Focus on one vertical with enrichment and approval workflows, offering hosted plans for non-technical users.",Hot category but crowded and compliance-sensitive.,2026-10-09T15:14:31.000Z
