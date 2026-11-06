@@ -4696,3 +4696,119 @@ product_id,product_name,product_url,category,value_proposition,target_audience,p
 3. Enterprise on-prem","1. Datadog/Sentry shipping MCP
 2. Security of prod data access
 3. Hard integrations","Ship an MCP server aggregating logs, errors and deploys with read-only scopes, and market it to Claude Code/Codex users.",Production context for agents is an emerging layer incumbents will contest.,2026-10-30T15:11:55.000Z
+1305826,Plainmail,https://www.producthunt.com/posts/plainmail,Email Hosting,"Flat-rate $5/month email hosting for unlimited custom domains, removing per-seat and per-domain fees.","Indie hackers, agencies and founders with many domains","1. Per-domain/per-seat pricing
+2. complex DNS (SPF/DKIM/DMARC) setup
+3. poor deliverability on cheap hosts","1. Guided DNS auto-setup
+2. catch-all/alias management
+3. shared inbox","1. No team collaboration
+2. limited calendar/contacts
+3. weak spam tuning","1. Google Workspace
+2. Fastmail
+3. Zoho Mail",7,7,"1. Domain-count-based flat pricing
+2. one-click DNS via Cloudflare/Namecheap APIs
+3. developer-first API",medium,6–10 weeks,"1. Tiered flat plans
+2. add-on storage
+3. transactional email add-on","1. Deliverability/IP reputation is hard
+2. abuse and spam risk
+3. thin margins","Build on top of existing mail stack (Postfix/Dovecot or a hosted provider API), start with auto DNS setup and aliasing, enforce abuse controls early, and market to domain collectors.",Flat pricing is the wedge but deliverability and abuse handling decide survival.,2026-11-06T15:12:25.000Z
+1305524,Rankfender v3.0,https://www.producthunt.com/posts/rankfender,SEO / GEO Software,SEO plus generative-engine optimization platform for both humans and AI agents.,"SEO teams, agencies, content marketers","1. Fragmented SEO tooling
+2. no visibility into AI-answer citations
+3. manual reporting","1. Track brand mentions in LLM answers
+2. automated content fixes
+3. agent API","1. Few reliable GEO metrics
+2. weak attribution
+3. limited integrations","1. Semrush
+2. Ahrefs
+3. Profound",7,7,"1. Focus on GEO tracking and agent-executable fixes
+2. transparent pricing
+3. open API",medium,8–12 weeks,"1. Seat/site-based subscription
+2. usage-based LLM queries
+3. agency white-label","1. LLM output volatility makes metrics noisy
+2. crowded market
+3. LLM query costs","Start with LLM-answer citation tracking for a niche vertical, add automated recommendations, and expose an API for agents.",GEO tracking is the fastest-growing slice of SEO tooling but measurement credibility is the moat.,2026-11-06T15:12:25.000Z
+1303405,Vakilat,https://www.producthunt.com/posts/vakilat,Legal Tech,"AI legal research for Indian lawyers with grounded, citation-backed answers.","Indian lawyers, law firms, legal researchers","1. Fragmented case-law sources
+2. hallucinated citations in generic AI
+3. time-consuming research","1. Verified citation links
+2. drafting assistance
+3. vernacular support","1. Limited coverage of lower courts
+2. no matter management
+3. weak statute updates","1. SCC Online
+2. Manupatra
+3. Indian Kanoon",7,7,"1. Citation-verified RAG
+2. regional language support
+3. affordable per-lawyer pricing",high,12–16 weeks,"1. Per-seat subscription
+2. firm plans
+3. API for legal platforms","1. Data licensing and copyright
+2. accuracy liability
+3. incumbents' proprietary data","Index public judgments first, force every answer to cite verifiable sources, and sell to small firms priced below incumbents.",Verifiable grounding in a regional legal corpus is defensible against generic LLMs.,2026-11-06T15:12:25.000Z
+1305755,BuildFerry,https://www.producthunt.com/posts/buildferry,Developer Tools,One-link installation of iOS test builds on any iPhone.,"Mobile developers, QA teams, agencies","1. Ad hoc provisioning and UDID registration friction
+2. TestFlight review delays
+3. sharing builds with clients","1. Auto device registration
+2. Android/iOS parity
+3. Slack/CI integration","1. Limited analytics
+2. no feedback capture
+3. ephemeral build links","1. TestFlight
+2. Diawi
+3. Firebase App Distribution",6,7,"1. Zero-setup install links
+2. CI plugins
+3. in-app feedback",medium,6–8 weeks,"1. Per-app plans
+2. team tiers
+3. build storage add-ons","1. Apple policy/enterprise cert risk
+2. commoditized by TestFlight
+3. certificate management burden",Build a CI-integrated distribution service with automatic provisioning and feedback capture; target agencies needing client sharing.,Apple platform dependence makes this useful but fragile.,2026-11-06T15:12:25.000Z
+1304303,Datastripes Data Stories,https://www.producthunt.com/posts/datastripes,Data Analytics,Turns any spreadsheet into a shareable data story in seconds.,"Analysts, marketers, small business owners","1. Manual chart building
+2. hard-to-explain insights
+3. static reports","1. Auto narrative generation
+2. live data connections
+3. branded embeds","1. Limited collaboration
+2. no data governance
+3. weak data cleaning","1. Tableau
+2. Power BI
+3. Julius AI",6,6,"1. Narrative-first output
+2. one-click sharing
+3. templates by role",medium,6–8 weeks,"1. Freemium
+2. per-seat pro
+3. white-label embeds","1. Crowded BI/AI analytics space
+2. LLM accuracy
+3. data privacy concerns","Ship a spreadsheet-to-story flow with templates and exports, then add connectors to Google Sheets and Airtable.",Story-format output differentiates but is easy for BI incumbents to copy.,2026-11-06T15:12:25.000Z
+1301751,Releasebeam,https://www.producthunt.com/posts/releasebeam,Developer Tools,"Release infrastructure for developers covering versioning, changelogs and deployment.","Dev teams, open-source maintainers, SaaS engineering","1. Manual release notes
+2. inconsistent versioning
+3. fragmented tooling","1. Auto changelogs
+2. release approvals
+3. customer-facing release pages","1. Little product-facing communication
+2. no rollback insights
+3. limited multi-repo support","1. Release Please
+2. Semantic Release
+3. LaunchDarkly",6,6,"1. Unified release + changelog + notification workflow
+2. multi-repo orchestration",medium,6–10 weeks,"1. Per-seat or per-repo plans
+2. enterprise audit features","1. Strong free OSS alternatives
+2. vague positioning
+3. integration breadth needed",Focus on multi-repo release orchestration with customer-facing changelogs and GitHub/GitLab integrations.,Pain is real but free tools set a low price anchor.,2026-11-06T15:12:25.000Z
+1306023,Cloptima,https://www.producthunt.com/posts/cloptima,AI Infrastructure,AI gateway with guardrails and LLM cost management in one layer.,Engineering and platform teams shipping LLM features,"1. Unpredictable LLM spend
+2. no central policy enforcement
+3. vendor lock-in","1. Budgets and alerts per team
+2. semantic caching
+3. PII redaction","1. Limited per-feature cost attribution
+2. weak eval integration","1. Portkey
+2. LiteLLM
+3. Helicone",7,6,"1. Cost attribution to product features
+2. open-source core
+3. compliance presets",medium,8–12 weeks,"1. Usage-based platform fee
+2. enterprise tier
+3. savings-share pricing","1. Crowded gateway market
+2. latency overhead
+3. trust concerns routing prompts","Open-source a proxy with cost tracking and guardrails, monetize hosted dashboards and compliance features.",LLM FinOps is a real budget line but gateways are commoditizing quickly.,2026-11-06T15:12:25.000Z
+1301604,SafeGrd,https://www.producthunt.com/posts/safegrd,Database Tools,Database backups that AI agents can restore but never delete.,Teams using AI coding agents with production databases,"1. Agents with destructive access
+2. slow restores
+3. unclear backup immutability","1. Immutable storage
+2. scoped restore tokens
+3. audit trail","1. No cross-engine support
+2. limited point-in-time recovery","1. Neon branching
+2. AWS Backup
+3. pgBackRest",6,6,"1. Agent-safe permission model
+2. MCP integration
+3. one-command restores",medium,6–8 weeks,"1. Per-database pricing
+2. storage tiers
+3. compliance add-on","1. Narrow niche
+2. cloud providers add similar features
+3. trust bar for backup vendors",Ship Postgres/MySQL immutable backups with an MCP server exposing restore-only scopes.,Agent-safety framing is timely but could be absorbed by cloud providers.,2026-11-06T15:12:25.000Z
